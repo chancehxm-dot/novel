@@ -965,6 +965,7 @@
     },
 
     handleQuery(option = {}) {
+      return;
       window.isLoaded = false;
       const url = location.href;
       const domain = new URL(url).hostname.replace('www.', '').split('.')[0];
