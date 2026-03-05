@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lost in Time</title>
+    <!-- <link rel="shortcut icon" href="http://www.52h5game.com/images/icon.png"/> -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="keywords" content="迷失时空,迷失时空html5游戏" />
+    <meta name="description" content="迷失时空html5游戏,迷失时空手机在线游戏" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script type="text/javascript" src="../../../static/dist/js/game.statics.ad.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <script language="javascript">
+        alert("Please rotate the screen!")
+    </script>
+</head>
+<div class="gamecenter-activator"></div>
+
+<body onload="setTimeout(function(){window.scrollTo(0,1)},1);">
+    <div id="game"><canvas id="canvas"></canvas></div>
+    <div id="bg"><canvas id="bgcanvas"></canvas></div>
+    <div id="offscreen"><canvas id="offscreencanvas"></canvas></div>
+    <div id="orientate"><img src="media/graphics/orientate/landscape.jpg" /></div>
+    <div id="play" class="play" onclick=""><img src="media/graphics/splash/mobile/cover-start.png" /></div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+"framerate":24,
+"images":["assets/assFons.png"],
+"frames":[
+    [730, 2, 360, 480, 0, 0, 0],
+    [366, 2, 360, 480, 0, 0, 0],
+    [2, 2, 360, 480, 0, 0, 0]
+],
+"animations":{"bigbg": {"speed": 1, "frames": [0, 1, 2]}}
+}

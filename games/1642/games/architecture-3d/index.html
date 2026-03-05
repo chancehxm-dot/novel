@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DH3D: Architecture</title>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Doodle History 3D: Architecture">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+    <meta property="og:type" itemprop="applicationCategory" content="game">
+    <meta property="og:title" itemprop="name" content="Doodle History 3D: Architecture">
+    <meta property="og:description" itemprop="description" name="description" content="A 3D puzzle game about architecture">
+    <meta property="og:image" itemprop="image" content="icons/128x128.png">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #000;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+
+        #content {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="content"></div>
+    <script type="text/javascript" src="../../../static/dist/js/game.statics.ad.js"></script>
+    <script type="text/javascript" src="./game.js"></script>
+    <script src="flambe.js"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+
+            if (document.activeElement === document.body && window.scrollY > 0) {
+                document.body.scrollTop = 0;
+            }
+        }, true);
+        flambe.embed(["targets/main-html.js", "targets/main-flash.swf"], "content");
+    </script>
+
+
+
+</body>
+
+</html>

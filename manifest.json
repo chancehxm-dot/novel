@@ -1,0 +1,30 @@
+{
+  "name": "acezi.info GAME",
+  "short_name": "SISMI",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/img/icon_game.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/img/icon_game.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/img/icon_game.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/img/icon_game.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "background_color": "skyblue",
+  "theme_color": "yellow",
+  "display": "standalone"
+}

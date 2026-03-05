@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta property="og:url" content="https://acezi.info" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="No install，Enjoy the best casual game center!" />
+    <meta property="og:description" content="No install，Enjoy the best casual game center!" />
+    <meta property="og:image" content="/images/assets/share.jpeg" />
+    <title>Discover the joy of success with acezi.info!</title>
+    <meta name="keywords"
+        content="Action games,Arcade games,Sports game,Card game,Boards game,Puzzle game,Easy game,Beautiful game,Girl game, Strategy game,Defense game,Risk game,Cool math games,Brain games,Dress up games and make up games,Cooking games,Jump games,Football and basketball games,Zombie games,Rich content, Lots of fun, Extreme classic, Instant update, Completely free" />
+    <meta name="description"
+        content="Millions of players recommend, beyond the historical and sweep of the world, the year's most eye-catching leisure game box is coming!H5 GameBox is an application that includes dozens of free game style to play on your device.We offer 100+ free mobile h5 games with best graphics and gameplay! ">
+    <script async src="https://cdn.jsdelivr.net/npm/lib-flexible@0.3.2/flexible.min.js"></script>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_633469_4uw4om2lfzr.css">
+    <link rel="stylesheet" href="/static/dist/css/basis.min.css">
+    <script src="/static/dist/js/quick.min.js"></script>
+    <script src="/static/dist/js/router.min.js"></script>
+    <script src="/static/dist/js/request.js"></script>
+    <link rel="stylesheet" href="/static/dist/css/play.min.css" />
+        <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "linlinlinlin、");
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-111sinafjgop"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-111sinafjgop');
+</script>
+</head>
+
+<body style="overflow: hidden;">
+    <div class="play-wrap" style="background: #666">
+        <div id="background" style="position: absolute;width: 100%;height: 100%;z-index: -1">
+        </div>
+        <object data="" id="game" class="game" type="text/html"></object>
+        <div class="ads">
+        </div>
+
+        <div class="dialog" style="width: 100%;z-index: 880;position: absolute;">
+            <div id="drag">
+                <img src="./img/menu.png" alt="menu">
+            </div>
+            <div class="drag-wrap" style="background: rgba(0, 0, 0, 0.7);">
+                <div class="con-top">
+                    <dl class="top-menu">
+                        <dt>
+                            <i onclick="Router.go(-1)" class="iconfont icon-back"></i>
+                        </dt>
+                        <dd>Back</dd>
+                    </dl>
+                    <dl class="top-menu">
+                        <dt>
+                            <i class="iconfont icon-share"></i>
+                            <span class="share-wrapper">
+                                <ul class="share-ul">
+                                    <li><button onclick="QuickGame.shareCopy()"><i
+                                                class="iconfont icon-link"></i></button></li>
+                                </ul>
+                            </span>
+                            <div class="tips-play">
+                                <span>Link copied</span>
+                            </div>
+                        </dt>
+                        <dd>Share</dd>
+                    </dl>
+                    <dl class="top-menu">
+                        <dt>
+                            <i onclick="Router.home()" class="iconfont icon-home"></i>
+                        </dt>
+                        <dd>Home</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tips-play">
+        <span>Link copied</span>
+    </div>
+    <script src="/static/dist/js/statistics.min.js"></script>
+    <script>
+        QuickGame.initPlay();
+        function getQueryString(name) {
+            let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            let r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return decodeURIComponent(r[2]);
+            };
+            return null;
+        }
+        loadLocalJSON('GET', './home.json', function (data) {
+            const targetId = getQueryString('id');
+            var gamsList = '';
+            var dataArray = data.populargames.concat(data.hotgames, data.newgames)
+            var gameData = dataArray;
+            const game = document.getElementById("game");
+            for (var i = 0; i < gameData.length; i++) {
+                if (gameData[i].gid == targetId) {
+                    gamsList = gameData[i];
+                    break;
+                }
+            }
+            if (!gamsList) {
+                alert("THE GAEM IS OFFLINE!");
+                location.href = "/";
+            } else {
+                const { name, title, dir_title } = gamsList;
+                if (dir_title) {
+                    var gameLinkName = dir_title;
+                    game.data = '/games/' + targetId + '/games/' + gameLinkName + '/index.html';
+                } else {
+                    var fileName = title ? title : name;
+                    const replacedString = fileName.toLocaleLowerCase().replace(/ /g, "-");
+                    game.data = '/games/' + targetId + '/games/' + replacedString + '/index.html';
+                }
+            };
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Dino Steak</title>
+    <!--  <link rel="shortcut icon" href="http://www.52h5game.com/images/icon.png"/> -->
+    <meta name="keywords" content="恐龙觅食,恐龙觅食html5游戏" />
+    <meta name="description" content="恐龙觅食html5游戏,恐龙觅食手机在线游戏" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, target-densitydpi=device-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    
+    <style>
+        * {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        html {
+            overflow: hidden;
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            /*background-color: #333333;*/
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            /*text-align: center;*/
+        }
+
+        #gamediv {
+            margin: 0;
+            padding: 0;
+            /*height: 100%;*/
+            height: 960px;
+            min-height: 960px;
+            width: 100%;
+            display: block;
+        }
+
+        #canvas {
+            /*background-color: #D6D2C2;*/
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+        }
+
+        #loader {
+            width: 50px;
+            height: 50px;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            margin-top: -25px;
+            margin-left: -25px;
+            background: url("assets/loader.gif") no-repeat 50% 50%;
+            display: block !important;
+        }
+    </style>
+    <link type="text/css" href='softgames.css' rel="stylesheet">
+    <script type="text/javascript">
+        window.gameLangs = ['en', 'de', 'es', 'fr', 'it', 'pt', 'ru', 'tr'];
+        window.gameJS = ['soft_API.js', 'assets/game.min.js'];
+        window.gameOnLoadScript = "MyGame.init();";
+    </script>
+    <script type="text/javascript" src="../../../static/dist/js/game.statics.ad.js"></script>
+    <script type="text/javascript" src='./assets/softgames-1.1.js'></script>
+    <script type="text/javascript" src='./assets/sg.hooks.js'></script>
+</head>
+
+<body>
+    <div id="gamediv"></div>
+    <canvas id="canvas" width="480" height="960"></canvas>
+    <div id="loader"></div>
+    <audio preload="auto" id="FonSound">
+<source src="assets/sounds/dino_steak.mp3" type="audio/mpeg">
+<source src="assets/sounds/dino_steak.ogg" type="audio/ogg" codecs="vorbis">
+</audio>
+</body>
+
+</html>

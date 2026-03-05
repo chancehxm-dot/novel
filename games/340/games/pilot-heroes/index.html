@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>Pilot Heroes</title>
+    <!-- <link rel="shortcut icon" href="http://www.52h5game.com/images/icon.png"/>-->
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.01, minimal-ui" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="keywords" content="空中英雄,空中英雄html5游戏" />
+    <meta name="description" content="空中英雄html5游戏,空中英雄手机在线游戏" />
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            background-color: black;
+        }
+
+        canvas {
+            -ms-touch-action: none;
+            image-rendering: -o-crisp-edges;
+            image-rendering: optimize-contrast;
+            -ms-interpolation-mode: nearest-neighbor;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+            tap-highlight-color: rgba(0, 0, 0, 0);
+            user-select: none;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script type="text/javascript" src="../../../static/dist/js/game.statics.ad.js"></script>
+    <script>
+        function launchFullscreen(element) {
+            if (element.requestFullscreen) {
+                element.requestFullscreen();
+            } else if (element.mozRequestFullScreen) {
+                element.mozRequestFullScreen();
+            } else if (element.webkitRequestFullscreen) {
+                element.webkitRequestFullscreen();
+            } else if (element.msRequestFullscreen) {
+                element.msRequestFullscreen();
+            }
+        }
+        window.famobi_gameID = "pilot-heroes";
+        window.famobi_gameJS = [
+            "viewporter.js",
+            "TweenMax.min.js",
+            "howler.js",
+            "app.min.js"
+        ];
+        (function(document, url, fgJS, firstJS) {
+            fgJS = document.createElement('script');
+            firstJS = document.getElementsByTagName('script')[0];
+            fgJS.src = url + encodeURIComponent(document.location.href);
+            firstJS.parentNode.insertBefore(fgJS, firstJS);
+        })(document, './gameapi/v1.js?e=');
+    </script>
+</head>
+
+<body>
+    <div id="viewporter">
+        <canvas id="canvas" moz-opaque></canvas>
+    </div>
+</body>
+
+</html>

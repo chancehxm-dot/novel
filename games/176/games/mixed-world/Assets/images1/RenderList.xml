@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="RenderList.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Box образец 10000" x="215" y="563" width="52" height="53" frameX="-17" frameY="-8" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10001" x="277" y="696" width="52" height="53" frameX="-17" frameY="-9" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10002" x="782" y="705" width="52" height="53" frameX="-17" frameY="-9" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10003" x="213" y="696" width="63" height="58" frameX="-12" frameY="-9" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10004" x="568" y="344" width="70" height="64" frameX="-7" frameY="-5" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10005" x="71" y="537" width="74" height="68" frameX="-4" frameY="-1" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10006" x="885" y="345" width="77" height="70" frameX="-4" frameY="-1" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10007" x="0" y="341" width="82" height="73" frameX="-1" frameY="0" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10008" x="639" y="335" width="83" height="73"/>
+	<SubTexture name="Box образец 10009" x="723" y="337" width="83" height="73"/>
+	<SubTexture name="Box образец 10010" x="485" y="344" width="82" height="73" frameX="-1" frameY="0" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10011" x="949" y="77" width="73" height="73" frameX="-7" frameY="0" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10012" x="342" y="629" width="71" height="67" frameX="-7" frameY="0" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10013" x="0" y="608" width="70" height="68" frameX="-8" frameY="0" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="Box образец 10014" x="0" y="608" width="70" height="68" frameX="-8" frameY="0" frameWidth="83" frameHeight="73"/>
+	<SubTexture name="DestroyFloor образец 10000" x="485" y="628" width="83" height="58" frameX="-11" frameY="-6" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10001" x="316" y="331" width="89" height="72" frameX="-10" frameY="-6" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10002" x="884" y="261" width="109" height="83" frameX="0" frameY="-1" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10003" x="659" y="244" width="109" height="90" frameX="0" frameY="-1" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10004" x="208" y="215" width="105" height="95" frameX="-2" frameY="-1" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10005" x="208" y="215" width="105" height="95" frameX="-2" frameY="-1" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10006" x="341" y="151" width="107" height="99" frameX="-2" frameY="-1" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10007" x="341" y="151" width="107" height="99" frameX="-2" frameY="-1" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10008" x="844" y="64" width="104" height="105" frameX="-6" frameY="0" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10009" x="844" y="64" width="104" height="105" frameX="-6" frameY="0" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10010" x="560" y="151" width="98" height="104" frameX="-8" frameY="-1" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="DestroyFloor образец 10011" x="110" y="215" width="97" height="103" frameX="-8" frameY="-2" frameWidth="110" frameHeight="105"/>
+	<SubTexture name="Enemy1 образец 10000" x="670" y="489" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10001" x="657" y="561" width="71" height="69" frameX="-3" frameY="-8" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10002" x="882" y="638" width="71" height="66" frameX="-3" frameY="-11" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10003" x="569" y="628" width="70" height="68" frameX="-4" frameY="-9" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10004" x="882" y="565" width="69" height="70" frameX="-4" frameY="-7" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10005" x="146" y="563" width="68" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10006" x="814" y="565" width="67" height="73" frameX="-5" frameY="-4" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10007" x="952" y="565" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10008" x="145" y="636" width="67" height="70" frameX="-5" frameY="-7" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10009" x="417" y="569" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10010" x="814" y="565" width="67" height="73" frameX="-5" frameY="-4" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10011" x="952" y="565" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10012" x="145" y="636" width="67" height="70" frameX="-5" frameY="-7" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10013" x="417" y="569" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10014" x="814" y="565" width="67" height="73" frameX="-5" frameY="-4" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10015" x="952" y="565" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10016" x="145" y="636" width="67" height="70" frameX="-5" frameY="-7" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10017" x="417" y="569" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10018" x="814" y="565" width="67" height="73" frameX="-5" frameY="-4" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10019" x="952" y="565" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10020" x="145" y="636" width="67" height="70" frameX="-5" frameY="-7" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10021" x="417" y="569" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10022" x="814" y="565" width="67" height="73" frameX="-5" frameY="-4" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10023" x="952" y="565" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10024" x="145" y="636" width="67" height="70" frameX="-5" frameY="-7" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10025" x="417" y="569" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10026" x="814" y="565" width="67" height="73" frameX="-5" frameY="-4" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10027" x="952" y="565" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10028" x="145" y="636" width="67" height="70" frameX="-5" frameY="-7" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10029" x="417" y="569" width="67" height="72" frameX="-5" frameY="-5" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10030" x="814" y="565" width="67" height="73" frameX="-5" frameY="-4" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10031" x="206" y="491" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10032" x="850" y="493" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10033" x="922" y="493" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10034" x="850" y="493" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10035" x="922" y="493" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10036" x="850" y="493" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10037" x="922" y="493" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10038" x="850" y="493" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10039" x="850" y="493" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10040" x="850" y="493" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10041" x="441" y="497" width="71" height="71" frameX="-3" frameY="-6" frameWidth="77" frameHeight="77"/>
+	<SubTexture name="Enemy1 образец 10042" x="807" y="345" width="77" height="77"/>
+	<SubTexture name="Enemy2 образец 10000" x="297" y="479" width="71" height="71" frameX="-3" frameY="-7" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10001" x="342" y="561" width="74" height="67" frameX="-2" frameY="-11" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10002" x="640" y="631" width="76" height="62" frameX="-1" frameY="-16" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10003" x="215" y="631" width="74" height="64" frameX="-2" frameY="-14" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10004" x="71" y="606" width="73" height="66" frameX="-2" frameY="-12" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10005" x="584" y="558" width="72" height="69" frameX="-3" frameY="-9" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10006" x="513" y="556" width="70" height="71" frameX="-4" frameY="-7" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10007" x="388" y="414" width="70" height="74" frameX="-4" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10008" x="885" y="416" width="68" height="76" frameX="-5" frameY="-2" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10009" x="459" y="418" width="66" height="78" frameX="-6" frameY="0" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10010" x="710" y="411" width="68" height="77" frameX="-5" frameY="-1" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10011" x="954" y="416" width="68" height="76" frameX="-5" frameY="-2" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10012" x="70" y="459" width="68" height="75" frameX="-5" frameY="-3" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10013" x="779" y="423" width="70" height="73" frameX="-4" frameY="-5" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10014" x="0" y="535" width="70" height="72" frameX="-4" frameY="-6" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10015" x="297" y="479" width="71" height="71" frameX="-3" frameY="-7" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10016" x="526" y="484" width="71" height="71" frameX="-3" frameY="-7" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10017" x="598" y="486" width="71" height="71" frameX="-3" frameY="-7" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10018" x="369" y="489" width="71" height="71" frameX="-3" frameY="-7" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10019" x="598" y="486" width="71" height="71" frameX="-3" frameY="-7" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10020" x="526" y="484" width="71" height="71" frameX="-3" frameY="-7" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10021" x="297" y="479" width="71" height="71" frameX="-3" frameY="-7" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10022" x="316" y="404" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10023" x="568" y="409" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10024" x="316" y="404" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10025" x="568" y="409" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10026" x="316" y="404" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10027" x="568" y="409" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10028" x="316" y="404" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10029" x="568" y="409" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10030" x="568" y="409" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10031" x="568" y="409" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10032" x="568" y="409" width="71" height="74" frameX="-3" frameY="-4" frameWidth="78" frameHeight="78"/>
+	<SubTexture name="Enemy2 образец 10033" x="406" y="335" width="78" height="78"/>
+	<SubTexture name="Enemy3 образец 10000" x="950" y="0" width="72" height="76" frameX="-4" frameY="-11" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10001" x="83" y="383" width="71" height="75" frameX="-4" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10002" x="0" y="415" width="69" height="75" frameX="-5" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10003" x="155" y="383" width="71" height="75" frameX="-4" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10004" x="950" y="0" width="72" height="76" frameX="-4" frameY="-11" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10005" x="83" y="383" width="71" height="75" frameX="-4" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10006" x="0" y="415" width="69" height="75" frameX="-5" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10007" x="155" y="383" width="71" height="75" frameX="-4" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10008" x="950" y="0" width="72" height="76" frameX="-4" frameY="-11" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10009" x="83" y="383" width="71" height="75" frameX="-4" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10010" x="0" y="415" width="69" height="75" frameX="-5" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10011" x="155" y="383" width="71" height="75" frameX="-4" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10012" x="950" y="0" width="72" height="76" frameX="-4" frameY="-11" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10013" x="83" y="383" width="71" height="75" frameX="-4" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10014" x="0" y="415" width="69" height="75" frameX="-5" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10015" x="155" y="383" width="71" height="75" frameX="-4" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10016" x="950" y="0" width="72" height="76" frameX="-4" frameY="-11" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10017" x="83" y="383" width="71" height="75" frameX="-4" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10018" x="227" y="415" width="69" height="75" frameX="-5" frameY="-12" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10019" x="742" y="497" width="71" height="71" frameX="-4" frameY="-16" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10020" x="640" y="409" width="69" height="76" frameX="-5" frameY="-11" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10021" x="139" y="459" width="66" height="77" frameX="-7" frameY="-6" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10022" x="278" y="551" width="63" height="79" frameX="-8" frameY="0" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10023" x="729" y="569" width="67" height="72" frameX="-6" frameY="0" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10024" x="808" y="639" width="69" height="65" frameX="-5" frameY="0" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10025" x="640" y="694" width="63" height="62" frameX="-8" frameY="-1" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10026" x="717" y="693" width="64" height="64" frameX="-7" frameY="-7" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10027" x="0" y="677" width="66" height="66" frameX="-6" frameY="-13" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10028" x="954" y="638" width="68" height="68" frameX="-5" frameY="-19" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10029" x="414" y="642" width="69" height="65" frameX="-5" frameY="-22" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10030" x="484" y="687" width="70" height="62" frameX="-4" frameY="-25" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10031" x="71" y="673" width="69" height="65" frameX="-5" frameY="-22" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10032" x="954" y="638" width="68" height="68" frameX="-5" frameY="-19" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Enemy3 образец 10033" x="237" y="331" width="78" height="83" frameX="0" frameY="-4" frameWidth="78" frameHeight="87"/>
+	<SubTexture name="Floor0 образец 10000" x="698" y="0" width="251" height="63"/>
+	<SubTexture name="Floor1 образец 10000" x="149" y="151" width="191" height="63"/>
+	<SubTexture name="Floor2 образец 10000" x="105" y="319" width="131" height="63"/>
+	<SubTexture name="TeleportBack образец 10000" x="0" y="0" width="148" height="158"/>
+	<SubTexture name="TeleportFront образец 10000" x="556" y="256" width="82" height="87"/>
+	<SubTexture name="effectTeleport образец 10000" x="449" y="245" width="106" height="89" frameX="-1" frameY="-6" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="effectTeleport образец 10001" x="0" y="253" width="104" height="87" frameX="-4" frameY="-5" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="effectTeleport образец 10002" x="0" y="159" width="109" height="93" frameX="-2" frameY="-2" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="effectTeleport образец 10003" x="449" y="151" width="110" height="93" frameX="-3" frameY="-2" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="effectTeleport образец 10004" x="773" y="170" width="110" height="92" frameX="-5" frameY="-2" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="effectTeleport образец 10005" x="884" y="170" width="112" height="90" frameX="-4" frameY="-2" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="effectTeleport образец 10006" x="659" y="153" width="113" height="90" frameX="-3" frameY="-1" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="effectTeleport образец 10007" x="314" y="251" width="115" height="79" frameX="-1" frameY="0" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="effectTeleport образец 10008" x="769" y="263" width="110" height="73" frameX="-1" frameY="-1" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="effectTeleport образец 10009" x="717" y="642" width="90" height="50" frameX="0" frameY="-2" frameWidth="116" frameHeight="94"/>
+	<SubTexture name="iconTime образец 10000" x="290" y="631" width="46" height="46"/>
+	<SubTexture name="shakalaTime образец 10000" x="330" y="108" width="340" height="42"/>
+	<SubTexture name="starComplete образец 10000" x="963" y="345" width="56" height="56"/>
+	<SubTexture name="starEmpty образец 10000" x="149" y="118" width="28" height="28"/>
+	<SubTexture name="timeShkala образец 10000" x="277" y="750" width="316" height="10"/>
+	<SubTexture name="tutorial образец 10000" x="330" y="0" width="210" height="97" frameX="0" frameY="0" frameWidth="210" frameHeight="117"/>
+	<SubTexture name="tutorial образец 10001" x="698" y="64" width="145" height="88" frameX="0" frameY="0" frameWidth="210" frameHeight="117"/>
+	<SubTexture name="tutorial образец 10002" x="541" y="0" width="156" height="107" frameX="0" frameY="0" frameWidth="210" frameHeight="117"/>
+	<SubTexture name="tutorial образец 10003" x="149" y="0" width="180" height="117" frameX="0" frameY="0" frameWidth="210" frameHeight="117"/>
+</TextureAtlas>

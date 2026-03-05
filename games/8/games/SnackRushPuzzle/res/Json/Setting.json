@@ -1,0 +1,26 @@
+[
+    {
+        "key": "SignDouble",
+        "value": 2
+    },
+    {
+        "key": "Hint",
+        "value": 2
+    },
+    {
+        "key": "GetMeat",
+        "value": 2
+    },
+    {
+        "key": "GetPower",
+        "value": 2
+    },
+    {
+        "key": "Revive",
+        "value": 2
+    },
+    {
+        "key": "GameRewardDouble",
+        "value": 2
+    }
+]

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="PanelsList.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Award образец 10000" x="973" y="1" width="46" height="41"/>
+	<SubTexture name="Exit образец 10000" x="971" y="194" width="38" height="37"/>
+	<SubTexture name="MoreGames образец 10000" x="971" y="162" width="49" height="30"/>
+	<SubTexture name="MusicOff образец 10000" x="973" y="44" width="48" height="37"/>
+	<SubTexture name="MusicOn образец 10000" x="973" y="122" width="39" height="38"/>
+	<SubTexture name="Next образец 10000" x="971" y="233" width="37" height="33"/>
+	<SubTexture name="PauseMenu образец 10000" x="300" y="1" width="281" height="288"/>
+	<SubTexture name="Play образец 10000" x="971" y="268" width="28" height="40"/>
+	<SubTexture name="Restart образец 10000" x="973" y="83" width="42" height="37"/>
+	<SubTexture name="ResultWindow образец 10000" x="1" y="1" width="297" height="367"/>
+	<SubTexture name="Yes образец 10000" x="969" y="310" width="35" height="30"/>
+	<SubTexture name="awardShow образец 10000" x="936" y="529" width="68" height="75" frameX="-21" frameY="-19" frameWidth="113" frameHeight="118"/>
+	<SubTexture name="awardShow образец 10001" x="504" y="581" width="68" height="75" frameX="-21" frameY="-19" frameWidth="113" frameHeight="118"/>
+	<SubTexture name="awardShow образец 10002" x="936" y="606" width="68" height="75" frameX="-21" frameY="-19" frameWidth="113" frameHeight="118"/>
+	<SubTexture name="awardShow образец 10003" x="119" y="618" width="68" height="75" frameX="-21" frameY="-19" frameWidth="113" frameHeight="118"/>
+	<SubTexture name="awardShow образец 10004" x="1" y="619" width="68" height="75" frameX="-21" frameY="-19" frameWidth="113" frameHeight="118"/>
+	<SubTexture name="awardShow образец 10005" x="189" y="634" width="68" height="75" frameX="-21" frameY="-19" frameWidth="113" frameHeight="118"/>
+	<SubTexture name="awardShow образец 10006" x="259" y="634" width="68" height="75" frameX="-21" frameY="-19" frameWidth="113" frameHeight="118"/>
+	<SubTexture name="awardShow образец 10007" x="759" y="638" width="68" height="75" frameX="-21" frameY="-19" frameWidth="113" frameHeight="118"/>
+	<SubTexture name="awardShow образец 10008" x="829" y="638" width="68" height="75" frameX="-21" frameY="-19" frameWidth="113" frameHeight="118"/>
+	<SubTexture name="awardShow образец 10009" x="389" y="519" width="113" height="118"/>
+	<SubTexture name="awardShowBack образец 10000" x="300" y="291" width="271" height="100"/>
+	<SubTexture name="btn образец 10000" x="329" y="639" width="69" height="52"/>
+	<SubTexture name="hand образец 10000" x="637" y="579" width="120" height="72"/>
+	<SubTexture name="loseIcon образец 10000" x="583" y="170" width="250" height="155"/>
+	<SubTexture name="pauseActive образец 10000" x="637" y="459" width="59" height="59"/>
+	<SubTexture name="pauseNormal образец 10000" x="959" y="405" width="59" height="59"/>
+	<SubTexture name="restartActive образец 10000" x="959" y="466" width="59" height="58"/>
+	<SubTexture name="restartNormal образец 10000" x="574" y="581" width="59" height="58"/>
+	<SubTexture name="starShowing образец 10000" x="828" y="529" width="106" height="107" frameX="-15" frameY="-14" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10001" x="253" y="521" width="111" height="111" frameX="-12" frameY="-12" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10002" x="1" y="501" width="116" height="116" frameX="-10" frameY="-9" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10003" x="705" y="457" width="121" height="120" frameX="-7" frameY="-7" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10004" x="133" y="370" width="126" height="126" frameX="-5" frameY="-4" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10005" x="573" y="327" width="130" height="130" frameX="-3" frameY="-2" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10006" x="836" y="1" width="135" height="134"/>
+	<SubTexture name="starShowing образец 10007" x="836" y="137" width="133" height="133" frameX="-1" frameY="0" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10008" x="835" y="272" width="132" height="131" frameX="-2" frameY="-1" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10009" x="1" y="370" width="130" height="129" frameX="-3" frameY="-2" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10010" x="705" y="327" width="128" height="128" frameX="-4" frameY="-3" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10011" x="261" y="393" width="126" height="126" frameX="-5" frameY="-4" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10012" x="389" y="393" width="124" height="124" frameX="-6" frameY="-5" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10013" x="835" y="405" width="122" height="122" frameX="-7" frameY="-6" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10014" x="515" y="459" width="120" height="120" frameX="-8" frameY="-7" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="starShowing образец 10015" x="133" y="498" width="118" height="118" frameX="-9" frameY="-8" frameWidth="135" frameHeight="134"/>
+	<SubTexture name="winIcon образец 10000" x="583" y="1" width="251" height="167"/>
+</TextureAtlas>

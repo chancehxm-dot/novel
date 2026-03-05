@@ -1,0 +1,522 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 4000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 456.756757,
+										"abs_y": -167.567568,
+										"file": 1,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "zBall3 - Football-28",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 4000
+							}
+						]
+					},
+					"name": "0",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": 456.756757,
+										"y": 167.567568
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": -464.864865,
+										"y": -172.972973
+									},
+									"spin": 0,
+									"time": 4000
+								}
+							],
+							"name": "zBall3 - Football-28",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 1,
+					"interval": 100,
+					"length": 4000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 456.756757,
+										"abs_y": -167.567568,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "zBall3 - Football-28",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 4000
+							}
+						]
+					},
+					"name": "1",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"x": 456.756757,
+										"y": 167.567568
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": -464.864865,
+										"y": -172.972973
+									},
+									"spin": 0,
+									"time": 4000
+								}
+							],
+							"name": "zBall3 - Football-28",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 2,
+					"interval": 100,
+					"length": 4000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 456.756757,
+										"abs_y": -167.567568,
+										"file": 4,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "zBall3 - Football-28",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 4000
+							}
+						]
+					},
+					"name": "2",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0,
+										"x": 456.756757,
+										"y": 167.567568
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": -464.864865,
+										"y": -172.972973
+									},
+									"spin": 0,
+									"time": 4000
+								}
+							],
+							"name": "zBall3 - Football-28",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 3,
+					"interval": 100,
+					"length": 4000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 456.756757,
+										"abs_y": -167.567568,
+										"file": 5,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "zBall3 - Football-28",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 4000
+							}
+						]
+					},
+					"name": "3",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"x": 456.756757,
+										"y": 167.567568
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": -464.864865,
+										"y": -172.972973
+									},
+									"spin": 0,
+									"time": 4000
+								}
+							],
+							"name": "zBall3 - Football-28",
+							"obj": 0
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "cloud",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						},
+						{
+							"file": 3,
+							"folder": 0
+						},
+						{
+							"file": 4,
+							"folder": 0
+						},
+						{
+							"file": 5,
+							"folder": 0
+						}
+					],
+					"name": "cloud_zBall3 - Football-28",
+					"realname": "zBall3 - Football-28",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 447,
+					"id": 0,
+					"name": "zBall3 - Football-34.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 447
+				},
+				{
+					"height": 118,
+					"id": 1,
+					"name": "zBall3 - Football-28.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 147
+				},
+				{
+					"height": 1280,
+					"id": 2,
+					"name": "background.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 720
+				},
+				{
+					"height": 142,
+					"id": 3,
+					"name": "zBall3 - Football-29.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 149
+				},
+				{
+					"height": 118,
+					"id": 4,
+					"name": "zBall3 - Football-30.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 135
+				},
+				{
+					"height": 118,
+					"id": 5,
+					"name": "zBall3 - Football-31.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 135
+				},
+				{
+					"height": 57,
+					"id": 6,
+					"name": "zBall3 - Football-32.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 57
+				},
+				{
+					"height": 23,
+					"id": 7,
+					"name": "zBall3 - Football-33.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 58
+				},
+				{
+					"height": 144,
+					"id": 8,
+					"name": "zBall3 - Football-46.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 145
+				},
+				{
+					"height": 144,
+					"id": 9,
+					"name": "zBall3 - Football-47.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 145
+				},
+				{
+					"height": 144,
+					"id": 10,
+					"name": "zBall3 - Football-48.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 145
+				},
+				{
+					"height": 144,
+					"id": 11,
+					"name": "zBall3 - Football-49.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 144
+				},
+				{
+					"height": 144,
+					"id": 12,
+					"name": "zBall3 - Football-50.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 143
+				},
+				{
+					"height": 144,
+					"id": 13,
+					"name": "zBall3 - Football-51.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 144
+				},
+				{
+					"height": 145,
+					"id": 14,
+					"name": "zBall3 - Football-52.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 144
+				},
+				{
+					"height": 144,
+					"id": 15,
+					"name": "zBall3 - Football-53.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 145
+				},
+				{
+					"height": 1280,
+					"id": 16,
+					"name": "tutorial.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 720
+				},
+				{
+					"height": 128,
+					"id": 17,
+					"name": "button.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 587
+				},
+				{
+					"height": 517,
+					"id": 18,
+					"name": "Ball.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 202
+				},
+				{
+					"height": 83,
+					"id": 19,
+					"name": "GameOver.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 493
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r4.1",
+	"scon_version": "1.0"
+}

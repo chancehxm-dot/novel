@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="./js/adAuto.css" type="text/css">
+
+    <script type="text/javascript" src="./js/jquery-2.0.0.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <div id='top-banner'></div>
+
+    <div id="gameframediv">
+        <iframe id='game_frame' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'
+            webkit-playsinline='true' scrolling='no' seamless frameborder='0'
+            style='display:block;overflow:hidden;'></iframe>
+    </div>
+    <script>
+        window.onload = function () {
+            const direction = localStorage.getItem('direction')
+            if (direction) {
+                const iframe = document.getElementById('game_frame')
+                iframe.style.width = '33.33%'
+                iframe.style.margin = '0 auto'
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        const gameFileName = localStorage.getItem('gameName') || "HitMasterRush"
+        var gGame = {
+            name: gameFileName,
+            description: "",
+            url: gameFileName,
+            uid: ""
+        }
+        function getMsg(event) {
+            //e = e || event;
+            console.log(event)
+            let tempData, messageFlag;
+            tempData = event.data + "";
+            messageFlag = tempData.split("|");
+            if (messageFlag[0] == "show_afg") {
+                try {
+                    HUTAFG.showInterstitial()
+                    console.log("#show_afg middle");
+                } catch (error) {
+                    console.log(error);
+                }
+                console.log("#show end");
+            } else if (messageFlag[0] == "show_middle_ad") {
+                try {
+                    HUTAFG.showInterstitial()
+                    console.log("#show middle");
+                } catch (error) {
+                    console.log(error);
+                }
+            }
+        }
+        window.addEventListener('message', getMsg);
+    </script>
+    <script type="text/javascript" src="./js/huntConfig.js"></script>
+    <script type="text/javascript" src="./js/huntSdk.js"></script>
+</body>
+</html>

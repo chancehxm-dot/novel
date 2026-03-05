@@ -1,0 +1,401 @@
+
+{
+	"1" : {
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 6,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 5,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 80,
+			"planetCPUMax":90,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":150,
+			"timeCPU":300,
+			"timeConquest":70,
+			"CPULevel":1
+			},
+	
+	"2" : {
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 6,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 5,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 85,
+			"planetCPUMax":105,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":149,
+			"timeCPU":300,						
+			"timeConquest":68,
+			"CPULevel":1
+			},
+	"3" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 6,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 5,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 90,
+			"planetCPUMax":110,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":148,
+			"timeCPU":300,						
+			"timeConquest":66,
+			"CPULevel":1
+			},
+	
+	"4" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 6,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 5,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 90,
+			"planetCPUMax":110,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":147,
+			"timeCPU":300,						
+			"timeConquest":65,
+			"CPULevel":1
+			},
+	
+	"5" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 6,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 5,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 95,
+			"planetCPUMax":115,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":147,
+			"timeCPU":300,						
+			"timeConquest":64,
+			"CPULevel":1
+			},
+	
+	"6" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 6,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 6,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 100,
+			"planetCPUMax":120,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":146,
+			"timeCPU":300,						
+			"timeConquest":62,
+			"CPULevel":2
+			},
+	
+	"7" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 6,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 6,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 110,
+			"planetCPUMax":125,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":145,
+			"timeCPU":300,						
+			"timeConquest":60,
+			"CPULevel":2
+			},
+	
+	"8" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 7,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 6,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 120,
+			"planetCPUMax":130,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":145,
+			"timeCPU":300,					
+			"timeConquest":58,
+			"CPULevel":2
+			},
+			
+		"9" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 7,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 6,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 130,
+			"planetCPUMax":140,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":144,
+			"timeCPU":300,					
+			"timeConquest":57,
+			"CPULevel":2
+			},
+	
+	"10" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 7,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 6,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 135,
+			"planetCPUMax":145,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":144,
+			"timeCPU":300,					
+			"timeConquest":56,
+			"CPULevel":2
+			},
+			
+	"11" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 7,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 6,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 140,
+			"planetCPUMax":150,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":144,
+			"timeCPU":300,				
+			"timeConquest":54,
+			"CPULevel":2
+			},
+			
+	"12" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" :7,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" :7,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 155,
+			"planetCPUMax":160,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":142,
+			"timeCPU":300,					
+			"timeConquest":52,
+			"CPULevel":2
+			},
+			
+	"13" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 7,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 7,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 160,
+			"planetCPUMax":165,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":142,
+			"timeCPU":300,					
+			"timeConquest":50,
+			"CPULevel":2
+			},
+			
+	"14" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 7,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 8,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 165,
+			"planetCPUMax":175,
+			"planetPlayerMin": 100,
+			"planetPlayerMax":142,
+			"timeCPU":300,						
+			"timeConquest":48,
+			"CPULevel":2
+			},
+			
+	"15" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 7,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 8,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 190,
+			"planetCPUMax":200,
+			"planetPlayerMin": 140,
+			"planetPlayerMax":150,
+			"timeCPU":300,						
+			"timeConquest":45,
+			"CPULevel":3
+			},
+			
+	"16" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 8,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 8,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 200,
+			"planetCPUMax":210,
+			"planetPlayerMin": 150,
+			"planetPlayerMax":160,
+			"timeCPU":300,					
+			"timeConquest":45,
+			"CPULevel":3
+			},
+			
+	"17" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 8,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 8,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 210,
+			"planetCPUMax":220,
+			"planetPlayerMin": 160,
+			"planetPlayerMax":170,
+			"timeCPU":300,					
+			"timeConquest":45,
+			"CPULevel":3
+			},
+			
+	"18" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 8,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 9,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 220,
+			"planetCPUMax":230,
+			"planetPlayerMin": 180,
+			"planetPlayerMax":190,
+			"timeCPU":300,					
+			"timeConquest":44,
+			"CPULevel":3
+			},
+			
+	"19" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 8,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 9,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 230,
+			"planetCPUMax":240,
+			"planetPlayerMin": 190,
+			"planetPlayerMax":200,
+			"timeCPU":300,						
+			"timeConquest":44,
+			"CPULevel":3
+			},
+			
+	"20" : {
+			
+			"nbBigPlanet" : 4,
+            "bigPlanetMin":75,
+            "bigPlanetMax":95,
+			"nbMediumPlanet" : 8,
+            "mediumPlanetMin":30,
+            "mediumPlanetMax":60,
+			"nbSmallPlanet" : 9,
+            "smallPlanetMin":0,
+            "smallPlanetMax":10,
+			"planetCPUMin": 240,
+			"planetCPUMax":250,
+			"planetPlayerMin": 200,
+			"planetPlayerMax":210,
+			"timeCPU":300,
+			"timeConquest":43,
+			"CPULevel":3
+						
+			}
+	}
+			

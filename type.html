@@ -1,0 +1,480 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>acezi.info | Popular and highly playable games</title>
+</head>
+
+<link rel="stylesheet" href="../styles/iconfont.css">
+<link rel="stylesheet" href="../styles/type.css">
+<link rel="stylesheet" href="../styles/share.css">
+<link rel="icon" href="./img/icon_game.png" type="image/x-icon">
+<script>document.documentElement.style.fontSize = window.innerWidth / 640 * 100 + 'px'</script>
+<script src="../scripts/rem_adaptive.js"></script>
+<style>
+  [v-cloak] {
+    display: none;
+  }
+</style>
+
+<body>
+  <div id="app">
+    <div class="main" v-cloak="">
+
+      <div class="header">
+        <!-- pc_categories -->
+        <a :href="`index.html?gameChannelId=${gameChannelId}`" class="logo">
+          <img src="../images/logo.png" alt="logo" width="125" height="60">
+        </a>
+        <a class="label" :href="handleTypeGames(cate.type)" v-for="cate in categories" :key="cate.type">
+          <i class="label_icon">
+            <img :src="cate.imgUrl" :alt="cate.type" width="30" height="30">
+          </i>
+          <span class="label_name">
+            {{cate.name}}
+          </span>
+        </a>
+
+        <!-- mobile_categories -->
+        <div class="home-icon" @click="handleHideLabel"><img src="../images/list.png" alt="list"></div>
+
+        <div class="label-panel" :style="{display: labelHide ? 'block' : 'none'}">
+          <a class="label-container" :href="handleTypeGames(cate.type)" v-for="cate in categories" :key="cate.type">
+            <i class="label_icon">
+              <img :src="cate.imgUrl" :alt="cate.type">
+            </i>
+            <span class="label-name">{{cate.name}}</span>
+          </a>
+        </div>
+
+        <!-- search -->
+        <div class="search">
+          <div class="search-menu">
+            <input class="search_input" type="text" v-model="search" @focus="showSearchTable = true"
+              @blur="showSearchTable = false" placeholder="Search Game...">
+            <div class="search-btn" @click="handleToSearch">
+              <img class="search-btn_img" src="../images/icon-search.png" alt="search_icon" width="20">
+            </div>
+            <div class="search-table" v-show="search.length > 0 && showSearchTable">
+              <div class="search-loading" v-if="!searchDone">
+                <img src="../images/loading.gif" alt="loading" width="50">
+              </div>
+              <ul v-else-if="searchDone && searchResult.length > 0">
+                <li v-for="item in searchResult" :key="item.gameId">
+                  <a :href="`search.html?gameChannel=${gameChannelId}&keyword=${item.gameName}`">
+                    <span class="game-name">{{item.gameName}}</span>
+                  </a>
+                </li>
+              </ul>
+              <div v-else="" class="search-loading">
+                Search result is null
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="to-search" :href="`search.html?gameChannelId=${gameChannelId}`">
+          <img src="../images/search.png" alt="search_icon" width="35">
+        </a>
+
+      </div>
+
+
+
+      <div class="posterBanner">
+        <ins class="adsbygoogle" v-if="mobile" style="display:inline-block;width:320px;height:100px;"
+          data-ad-client="ca-00023i84" :data-ad-slot="accountInfo.mobile.type.top"></ins>
+
+        <ins class="adsbygoogle" v-else="" style="display:block" data-ad-client="ca-00023i84"
+          :data-ad-slot="accountInfo.pc.type.top" data-ad-format="auto" data-full-width-responsive="true"></ins>
+
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+      <div class="share">
+        <a href="../html/sharer.php.html">
+          <img src="../images/facebook.png">
+        </a>
+        <a href="../html/tweet.html">
+          <img src="../images/twitter_02.png">
+        </a>
+        <a href="../html/scan.html">
+          <img src="../images/snapchat.png">
+        </a>
+        <a href="#" @click="handleShare">
+          <img src="../images/share.png">
+        </a>
+      </div>
+      <div class="share_wap">
+        <a href="#" @click="handleShare">
+          <img src="../images/share_02.png">
+        </a>
+      </div>
+      <div class="share_box" v-show="shareStauts" aria-label="To facebook">
+        <a href="https://www.facebook.com/sharer.php?t=Fun game sharing&u=https://acezi.info/forecast/adbee">
+          <img src="./img/facebook.png" alt="share_facebook"> Facebook
+        </a>
+        <a href="https://twitter.com/intent/tweet?text=Fun game sharing&url=https://acezi.info/"
+          aria-label="To twitter">
+          <img src="./img/twitter_02.png" alt="share_twitter"> Twitter
+        </a>
+        <a href="https://www.snapchat.com/scan?attachmentUrl=https://acezi.info/" aria-label="To snapchat">
+          <img src="./img/Snapchat_02.png" alt="share_snapchat"> Snapchat
+        </a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&title=Fun game sharing&utl=https://acezi.info/"
+          aria-label="To linkedin">
+          <img src="./img/linkedin.png" alt="share_linkedin"> Linkedin
+        </a>
+        <a href="mailto:go@3tkj.cn" aria-label="To email">
+          <img src="./img/email.png" alt="share_email"> Email
+        </a>
+        <a href="https://web.skype.com/share?utl=https://acezi.info/&text=Fun game sharing" aria-label="To skype">
+          <img src="./img/skype.png" alt="share_skype"> Skype
+        </a>
+        <a href="https://reddit.com/submit?utl=https://acezi.info/&title=Fun game sharing" aria-label="To reddit">
+          <img src="./img/reddit.png" alt="share_reddit"> Reddit
+        </a>
+        <a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=https://acezi.info/&title=Fun game sharing"
+          aria-label="To tumblr">
+          <img src="./img/tumblr.png" alt="share_tumblr"> Tumblr
+        </a>
+      </div>
+      <div class="closeShare" v-show="shareStauts" @click="handleShare">
+        <img src="../images/close.png">
+      </div>
+      <div class="more_share_bg" v-show="shareStauts" @click="handleShare"></div>
+      <div class="content" v-if="!isVideo">
+        <a class="game scroll" :href="handleDetail(item)" v-for="item in dataList" :key="item.gameId">
+          <div class="game-pic">
+            <img src="../images/picture.gif" class="pic lazyload fmt" :data-src="item.gameLogo" :alt="item.gameName">
+          </div>
+          <div class="name-box">
+            <div class="name">{{item.gameName}}</div>
+          </div>
+        </a>
+      </div>
+      <div class="top_video_content" v-if="isVideo">
+        <div v-for="(item,index) in dataList">
+          <div class="top_video" v-if="index<2" @click="handleVideoDetail(item)" :key="item.vid">
+            <img :src="`./static/img/${item.gameLogo}`" class="pic lazyload fmt" :alt="item.gameName">
+            <div class="name-box">
+              <div class="name">{{item.gameName}}</div>
+            </div>
+            <div class="time">
+              {{item.time}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video_content" v-if="isVideo">
+        <div v-for="(item,index) in dataList">
+          <div class="game video" @click="handleVideoDetail(item)" v-if="index>1" :key="item.vid">
+            <img :src="`./static/img/${item.gameLogo}`" class="pic lazyload fmt" :alt="item.gameName">
+            <div class="name-box">
+              <div class="name">{{item.gameName}}</div>
+            </div>
+            <div class="time">
+              {{item.time}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="posterBanner">
+        <ins class="adsbygoogle" v-if="mobile" style="display:inline-block;width:320px;height:100px;"
+          data-ad-client="ca-00023i84" :data-ad-slot="accountInfo.mobile.type.bottom"></ins>
+
+        <ins class="adsbygoogle" v-else="" style="display:block" data-ad-client="ca-00023i84"
+          :data-ad-slot="accountInfo.pc.type.bottom" data-ad-format="auto" data-full-width-responsive="true"></ins>
+
+        <script data-cfasync="false" src="../scripts/email-decode.min.js"></script>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+      <div class="footer">
+        <div class="bottom-navbar">
+          <a :href="handleToAboutContent('cookies')">
+            Cookies
+          </a>
+          <a :href="handleToAboutContent('privacy')">
+            Privacy Policy
+          </a>
+          <a href="mailto:go@3tkj.cn" target="_blank">Contact Us</a>
+          <a :href="handleToAboutContent('company')">
+            About Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script data-cfasync="false" src="../scripts/email-decode.min.js"></script>
+</body>
+<script src="../scripts/result.js"></script>
+<script src="../scripts/game_action.js"></script>
+<script src="../scripts/raceing.js"></script>
+<script src="../scripts/shooter.js"></script>
+<script src="../scripts/hot.js"></script>
+<script src="../scripts/casual.js"></script>
+<script src="../scripts/girlsGames.js"></script>
+<!-- <script src="./js/game_vid.js"></script> -->
+
+<script src="../scripts/vue.min.js"></script>
+<script src="../scripts/axios.min.js"></script>
+<script src="../scripts/accountData.js"></script>
+<script src="../scripts/afg.js"></script>
+<script>
+  function debounce(fn, delay) {
+    let timer = null
+    return function () {
+      let that = this
+      let args = arguments
+      if (timer) {
+        clearTimeout(timer)
+      }
+      timer = setTimeout(() => {
+        fn.apply(that, args)
+        clearTimeout(timer)
+        timer = null
+      }, delay)
+    }
+  }
+</script>
+<script>
+  var vm = new Vue({
+    el: '#app',
+    data() {
+      return {
+        labelHide: false,
+        dataList: raceing,
+
+        shareStauts: false,
+
+        gameChannelId: 4163,
+
+        isVideo: false,
+
+        mobile: true,
+        accountInfo: {},
+
+        searchResult: [],
+        search: '',
+        searchDone: false,
+        showSearchTable: false,
+        categories: [
+          {
+            name: 'Hot Games',
+            type: 'hot',
+            imgUrl: './img/hot.png'
+          },
+          {
+            name: 'Racing Games',
+            type: 'racing',
+            imgUrl: './img/racing-game.png'
+          },
+          {
+            name: 'Shooter Games',
+            type: 'shooter',
+            imgUrl: './img/shooting-game.png'
+          },
+          {
+            name: 'Action Games',
+            type: 'action',
+            imgUrl: './img/action-game.png'
+          },
+          {
+            name: 'Casual Games',
+            type: 'casual',
+            imgUrl: './img/casual.png'
+          },
+          {
+            name: 'Girls Games',
+            type: 'girl',
+            imgUrl: './img/girls.png'
+          }
+        ]
+      }
+    },
+    watch: {
+      search(val) {
+        this.searchGames()
+      }
+    },
+    methods: {
+      handleToSearch() {
+        location.href = `search.html?gameChannel=${this.gameChannelId}&keyword=${this.search}`
+      },
+      searchGames: debounce(function () {
+        this.searchDone = false
+        axios({
+          method: "post",
+          url: "https://www.migame.vip/gamefront/gameList/search",
+          data: {
+            gameName: this.search,
+            isTop: -1,
+            limit: 10,
+            page: 1,
+          }
+        }).then(res => {
+          this.searchResult = res.data.data
+          this.searchDone = true
+        })
+      }, 500),
+      handleHideLabel() {
+        this.labelHide = !this.labelHide
+      },
+      handleShare() {
+        this.shareStauts = !this.shareStauts
+        if (this.shareStauts) {
+          document.body.style.overflow = "hidden"
+        } else {
+          document.body.style.overflow = "auto"
+        }
+      },
+      getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split("=");
+          if (pair[0] == variable) { return pair[1]; }
+        }
+        return (false);
+      },
+      handleTypeGames(type) {
+        return `type.html?gameChannelId=${this.gameChannelId}&type=${type}`;
+      },
+      handleDetail(item) {
+        return `detail.html?gameChannelId=${this.gameChannelId}&gameId=${item.gameId}`;
+      },
+      handleToAboutContent(type) {
+        return `about_content.html?aboutContentType=${type}`;
+      },
+      handleScroll() {
+        var imgs = document.querySelectorAll('.pic')
+        var game_items = document.querySelectorAll(".scroll")
+        let scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+        for (var i = 0; i < imgs.length; i++) {
+          if ((window.innerHeight + scrolltop) > this.lazyload(game_items[i])) {
+            (i => {
+              setTimeout(() => {
+                var temp = new Image()
+                temp.src = imgs[i].getAttribute("data-src")
+                temp.onload = () => {
+                  if (this.isVideo) {
+                    imgs[i].src = imgs[i].getAttribute("data-src")
+                  } else {
+                    imgs[i].src = imgs[i].getAttribute("data-src")
+                  }
+                }
+              }, 100)
+            })(i)
+          }
+        }
+      },
+      lazyload(e) {
+        if (e != undefined) {
+          return e.offsetTop
+        }
+      },
+      getAdData() {
+        var adjs = document.createElement('script')
+        adjs.async = 'async'
+        adjs.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-00023i84'
+        adjs.crossorigin = 'anonymous'
+        adjs.setAttribute("data-ad-frequency-hint", "30s");
+        adjs.setAttribute("data-ad-channel", this.accountInfo.adChannel);
+        // adjs.setAttribute("data-adbreak-test","on");
+
+        document.head.append(adjs)
+      },
+      loadGAScript() {
+        var adjs = document.createElement('script')
+        adjs.async = 'async'
+        adjs.src = `https://www.googletagmanager.com/gtag/js?id=${this.accountInfo.ga}`
+
+        document.body.append(adjs)
+
+        if (this.accountInfo.ga2.length) {
+          var adjs1 = document.createElement('script')
+          adjs1.async = 'async'
+          adjs1.src = `https://www.googletagmanager.com/gtag/js?id=${this.accountInfo.ga2}`
+
+          document.body.append(adjs1)
+        }
+      },
+    },
+    created() {
+      this.gameChannelId = this.getQueryVariable('gameChannelId') ? this.getQueryVariable('gameChannelId') : 4163
+      this.accountInfo = googleAccount.hasOwnProperty(this.gameChannelId) ? googleAccount[this.gameChannelId] : googleAccount[4163]
+      this.loadGAScript()
+    },
+    mounted() {
+      adPrepare()
+      createScript()
+      var gameType = ''
+      if (this.getQueryVariable('type') !== false) {
+        gameType = this.getQueryVariable('type')
+      }
+      switch (gameType) {
+        case 'racing':
+          this.dataList = raceing
+          break;
+        case 'shooter':
+          this.dataList = shooter
+          break;
+        case 'action':
+          this.dataList = action
+          break;
+        case 'casual':
+          this.dataList = casual
+          break;
+        case 'vid':
+          this.dataList = videoList
+          this.isVideo = true
+          break;
+        case 'hot':
+          this.dataList = hot
+          break;
+        case 'girl':
+          this.dataList = girls
+          break;
+      }
+
+      window.addEventListener("scroll", this.handleScroll, true)
+
+      setTimeout(() => {
+        this.handleScroll()
+      }, 16);
+      this.getAdData()
+
+      if (window.screen.width > 768) {
+        this.mobile = false
+      }
+    },
+  })
+</script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=S-SADAS"></script> -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10832488603"></script> -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', vm.accountInfo.ga);
+  if (vm.accountInfo.ga2.length) {
+    gtag('config', vm.accountInfo.ga2);
+  }
+</script>
+<!-- Hotjar Tracking Code for my site -->
+<script>
+  if (vm.gameChannelId == 4163) {
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 3378431, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  }
+</script>
+
+</html>

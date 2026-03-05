@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,width=device-width,minimal-ui" />
+    <title>Finders Critters</title>
+    <!-- <link rel="shortcut icon" href="http://www.52h5game.com/images/icon.png"/> -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="keywords" content="解救小动物,解救小动物html5游戏" />
+    <meta name="description" content="解救小动物html5游戏,解救小动物手机在线游戏" />
+    
+    <script type="text/javascript" src="../../../static/dist/js/game.statics.ad.js"></script>
+    <script>
+        // Package-ID
+        window.famobi_gameID = "finders-critters";
+        window.famobi_gameJS = ['js/all.js', function() {
+            startPetResque('EN');
+        }];
+        (function(document, url, fgJS, firstJS) {
+            fgJS = document.createElement('script');
+            firstJS = document.getElementsByTagName('script')[0];
+            fgJS.src = url + encodeURIComponent(document.location.href);
+            firstJS.parentNode.insertBefore(fgJS, firstJS);
+        })(document, './gameapi/v1.js?e=');
+    </script>
+</head>
+
+<body>
+    <div>
+        <div id="PetResque"></div>
+    </div>
+</body>
+
+</html>

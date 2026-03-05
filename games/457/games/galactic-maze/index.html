@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Galactic Maze</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,minimal-ui" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="../../../static/dist/js/game.statics.ad.js"></script>
+    <script type="text/javascript" src="js/createjs-2014.12.12.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <div style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%"></div>
+    <script>
+        $(document).ready(function() {
+            var oMain = new CMain({
+                hero_accelleration: 6, //HERO ACCELLERATION WHEN MOVING RIGHT/LEFT
+                hero_friction: 0.6, //HERO FRICTION WHEN CHANGE DIRECTION
+                hero_speed: 40, //MAX HERO SPEED
+                starting_bg_speed: 6, //SPEED OF BACKGROUND IN PIXEL
+                max_bg_speed: 11, //MAX BACKGROUND SPEED 
+                score_hit: 10, //POINTS GAINED WHEN ENEMY IS DESTROYED
+                point_to_next_difficult: [100, 250, 400], //POINT FOR INCREASE THE VELOCITY OF HERO
+                velocity_increase: 0.3 // HERO VELOCITY ADDED EVERY POINT REACH
+            });
+
+            $(oMain).on("start_session", function(evt) {
+                if (getParamValue('ctl-arcade') === "true") {
+                    parent.__ctlArcadeStartSession();
+                }
+            });
+
+            $(oMain).on("end_session", function(evt) {
+                if (getParamValue('ctl-arcade') === "true") {
+                    parent.__ctlArcadeEndSession();
+                }
+            });
+
+            $(oMain).on("start_level", function(evt, iLevel) {
+                if (getParamValue('ctl-arcade') === "true") {
+                    parent.__ctlArcadeStartLevel({
+                        level: iLevel
+                    });
+                }
+            });
+
+            $(oMain).on("restart_level", function(evt, iLevel) {
+                if (getParamValue('ctl-arcade') === "true") {
+                    parent.__ctlArcadeRestartLevel({
+                        level: iLevel
+                    });
+                }
+            });
+
+            $(oMain).on("end_level", function(evt, iLevel) {
+                if (getParamValue('ctl-arcade') === "true") {
+                    parent.__ctlArcadeEndLevel({
+                        level: iLevel
+                    });
+                }
+            });
+
+            $(oMain).on("save_score", function(evt, iScore, szMode) {
+                if (getParamValue('ctl-arcade') === "true") {
+                    parent.__ctlArcadeSaveScore({
+                        score: iScore,
+                        mode: szMode
+                    });
+                }
+            });
+
+            $(oMain).on("show_interlevel_ad", function(evt) {
+                if (getParamValue('ctl-arcade') === "true") {
+                    parent.__ctlArcadeShowInterlevelAD();
+                }
+            });
+
+            $(oMain).on("share_event", function(evt, iScore) {
+                if (getParamValue('ctl-arcade') === "true") {
+                    parent.__ctlArcadeShareEvent({
+                        img: TEXT_SHARE_IMAGE,
+                        title: TEXT_SHARE_TITLE,
+                        msg: TEXT_SHARE_MSG1 + iScore + TEXT_SHARE_MSG2,
+                        msg_share: TEXT_SHARE_SHARE1 + iScore + TEXT_SHARE_SHARE1
+                    });
+                }
+            });
+
+
+            if (isIOS()) {
+                setTimeout(function() {
+                    sizeHandler();
+                }, 200);
+            } else {
+                sizeHandler();
+            }
+        });
+    </script>
+    <canvas id="canvas" class='ani_hack' width="968" height="1224"> </canvas>
+    <div id="block_game" style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%; display:none"></div>
+</body>
+<!-- <script src="http://www.7k7kjs.cn/js/h5/stat.js"></script> -->
+
+</html>

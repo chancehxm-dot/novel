@@ -1,0 +1,22 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="Etoile_next2.png" x="437" y="660" width="80" height="77"/>
+	<SubTexture name="Etoile_play2.png" x="0" y="970" width="46" height="45"/>
+	<SubTexture name="Mutemusicbnt2.png" x="395" y="759" width="119" height="120"/>
+	<SubTexture name="congratulation2.png" x="0" y="302" width="400" height="71"/>
+	<SubTexture name="creditsBnt2.png" x="274" y="779" width="119" height="118"/>
+	<SubTexture name="leftbnt2.png" x="180" y="639" width="134" height="138"/>
+	<SubTexture name="levelsbnt2.png" x="402" y="422" width="117" height="117"/>
+	<SubTexture name="logo2.png" x="0" y="0" width="543" height="300"/>
+	<SubTexture name="maison2.png" x="514" y="881" width="79" height="79"/>
+	<SubTexture name="menubnt2.png" x="0" y="821" width="136" height="147"/>
+	<SubTexture name="moregames2.png" x="316" y="639" width="119" height="118"/>
+	<SubTexture name="musicbnt2.png" x="274" y="899" width="119" height="120"/>
+	<SubTexture name="pausebnt2.png" x="437" y="541" width="117" height="117"/>
+	<SubTexture name="paused2.png" x="0" y="571" width="400" height="66"/>
+	<SubTexture name="playbtn2.png" x="0" y="639" width="178" height="180"/>
+	<SubTexture name="replaybnt2.png" x="402" y="302" width="117" height="118"/>
+	<SubTexture name="resumebnt2.png" x="395" y="881" width="117" height="118"/>
+	<SubTexture name="rightbnt2.png" x="138" y="821" width="134" height="139"/>
+	<SubTexture name="you_lose2.png" x="0" y="375" width="400" height="90"/>
+	<SubTexture name="you_win2.png" x="0" y="467" width="400" height="102"/>
+</TextureAtlas>

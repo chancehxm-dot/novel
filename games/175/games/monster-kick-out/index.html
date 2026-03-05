@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Monster Kick Out</title>
+    <!-- <link rel="shortcut icon" href="http://www.52h5game.com/images/icon.png"/> -->
+    <meta name="keywords" content="怪物对对碰,怪物对对碰html5游戏" />
+    <meta name="description" content="怪物对对碰html5游戏,怪物对对碰手机在线游戏" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scaleable=0, maximum-scale=1.01, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <script type="text/javascript" src="../../../static/dist/js/game.statics.ad.js"></script>    
+    <script src="js/phaser.min.js"></script>
+    <script src="js/game.min.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            function onTouchPreventDefault(event) {
+                event.preventDefault();
+            };
+            document.addEventListener("touchmove", onTouchPreventDefault, false);
+            document.addEventListener("touchstart", onTouchPreventDefault, false);
+        }, false);
+    </script>
+    <script type="text/javascript">
+        var Booster = window.Booster || {};
+        Booster.ready = function() {
+            new Booster.Init({
+                orientation: 'portrait',
+                splash: true,
+                minimalUI: true
+            });
+            adSense = new Booster.Ad({
+                type: 'adsense',
+                size: '300x250',
+                channelID: 5074958027
+            });
+            analytics = new Booster.Analytics({
+                gameName: 'Monster Kick Out',
+                gameId: '0082-monster_kick_out',
+                gameCategory: 'Arcade',
+                developer: '0082'
+            });
+            moregames = new Booster.Moregames();
+            community = new Booster.Community({
+                position: 4,
+                gameCode: '0082-monster_kick'
+            });
+        };
+    </script>
+    <style type="text/css">
+        BODY,
+        HTML {
+            -webkit-touch-callout: none;
+            -webkit-text-size-adjust: none;
+            -webkit-user-select: none;
+            -webkit-tap-highlight-color: transparent;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Verdana, sans-serif;
+            font-weight: normal;
+            color: #ccc;
+            background-color: #000000;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+</body>
+
+</html>

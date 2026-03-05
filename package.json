@@ -1,0 +1,22 @@
+{
+  "name": "pbskids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert-images": "node convertToWebP.js",
+    "update-references": "node updateReferences.js",
+    "optimize-images": "node convertToWebP.js && node updateReferences.js",
+    "random-webp": "node random-image-converter.js",
+    "random-webp-images": "node random-image-converter.js ./images ./output 35"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.16.13"
+  },
+  "volta": {
+    "node": "24.12.0"
+  }
+}
