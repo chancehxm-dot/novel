@@ -17,7 +17,7 @@
 /srch.html?categoryID=47&category=Adventure
 /detail.html?id=16754
 /detail.html?id=16755
-/detail.html?id=16756
+/detail.html?id=16756 
 /detail.html?id=16757
 /detail.html?id=16758
 /detail.html?id=16759
